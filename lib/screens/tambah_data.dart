@@ -275,7 +275,7 @@ class _TambahScreenState extends State<TambahScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tambah Person'),
+        title: const Text('Tambah'),
         centerTitle: true,
         backgroundColor: Colors.indigo,
       ),
