@@ -144,7 +144,6 @@ class _TambahScreenState extends State<TambahScreen> {
       .join(', ');
 
   try {
-    // Ganti sesuai route Laravel-mu
     var uri = Uri.parse('$baseUrl/people'); 
 
     var request = http.MultipartRequest('POST', uri);
@@ -203,8 +202,6 @@ class _TambahScreenState extends State<TambahScreen> {
     );
   }
 }
-
-
 
   @override
   void dispose() {
