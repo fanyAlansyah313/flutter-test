@@ -345,7 +345,7 @@ Widget _customField(TextEditingController controller, String label,
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Person Manager'),
+        title: const Text('Data'),
         centerTitle: true,
       ),
       bottomNavigationBar: SafeArea(
